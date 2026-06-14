@@ -72,7 +72,7 @@ export default function ProModal({ isOpen, onClose }) {
         <a
           href="#"
           onClick={handleCTAClick}
-          className="block w-full bg-primary hover:bg-primary-hover text-white font-semibold py-3 px-6 rounded-lg rounded-lg text-center transition-colors duration-200 mb-4"
+          className="block w-full bg-primary hover:bg-primary-hover text-white font-semibold py-3 px-6 rounded-lg text-center transition-colors duration-200 mb-4"
         >
           Get Pro for $5 →
         </a>

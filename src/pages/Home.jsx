@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import DropZone from '../components/DropZone';
 import ProModal from '../components/ProModal';
 import FAQ from '../components/FAQ';
@@ -186,7 +187,7 @@ export default function Home() {
           </p>
 
           <div className="flex justify-center gap-6 text-sm text-gray-400 mb-6">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+            <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
             <span>·</span>
             <a href="#" className="hover:text-white transition-colors">FAQ</a>
             <span>·</span>
